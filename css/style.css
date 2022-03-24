@@ -137,6 +137,10 @@ img {
   color: #ffbb00;
 }
 
+.portfolio h2 span {
+  color: #ffbb00;
+}
+
 .introducao p {
   margin-bottom: 20px;
   font-size: 24px;
@@ -200,13 +204,35 @@ img {
   }
 }
 
-/* PORTFOLIIOS */
-
-.portfolio {
-  width: 100%;
-  padding: 40px 0;
+.subtitulo {
+  font-size: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
-.portfolio_lista li:last-child {
-  margin-top: 20px;
+/* PORTFOLIIOS */
+
+.portfolio_lista {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  float: right;
+}
+
+.portfolio_lista li img {
+  width: 100%;
+  padding-right: 20px;
+}
+
+.portfolio {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0px 40px;
+  box-sizing: border-box;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
