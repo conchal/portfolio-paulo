@@ -33,7 +33,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  justify-content: space-between;
+  justify-content: end;
   align-items: center;
   box-sizing: border-box;
   padding: 20px;
@@ -198,4 +198,15 @@ img {
     height: 300px;
     width: 100%;
   }
+}
+
+/* PORTFOLIIOS */
+
+.portfolio {
+  width: 100%;
+  padding: 40px 0;
+}
+
+.portfolio_lista li:last-child {
+  margin-top: 20px;
 }
