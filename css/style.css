@@ -122,8 +122,8 @@ img {
 }
 
 .introducao-conteudo img {
-  display: flex;
-  align-items: center;
+  display: grid;
+  place-items: center;
 }
 
 .introducao img {
