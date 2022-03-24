@@ -121,6 +121,11 @@ img {
   padding-bottom: 200px;
 }
 
+.introducao-conteudo img {
+  display: flex;
+  align-items: center;
+}
+
 .introducao img {
   height: 100%;
   object-fit: cover;
